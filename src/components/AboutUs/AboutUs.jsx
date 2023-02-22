@@ -14,8 +14,6 @@ export default class AboutUs extends React.Component {
 
     render() {
         const { t } = this.props;
-
-
         return (
             <div className="aboutUS">
                 <div className="aboutUS__animation"></div>
