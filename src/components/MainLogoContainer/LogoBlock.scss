@@ -1,0 +1,52 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.container {
+
+  //height: 1000px;
+
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  &__animation {
+    position: absolute;
+    z-index: -1;
+    width: 95%;
+    height: 420px;
+    background: linear-gradient(90deg, rgba(41, 37, 244, 0.8) 0%, rgba(227, 58, 255, 0.8) 26.04%, rgba(84, 4, 255, 0.8) 50.52%, rgba(255, 37, 89, 0.8) 75.52%, rgba(97, 0, 255, 0.8) 100%);
+    filter: blur(114.5px);
+    transform: rotate(10.21deg);
+    animation: pulse 5s infinite;
+  }
+
+  &__button {
+    cursor: pointer;
+    margin-top: 90px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.15em;
+    width: 263px;
+    height: 66px;
+    background: rgba(255, 153, 0, 0.04);
+    color: #FF9900;
+    border: 1px solid #FF9900;
+    box-shadow: 0 9px 27px 1px rgba(255, 153, 0, 0.22);
+    border-radius: 10px;
+  }
+}
