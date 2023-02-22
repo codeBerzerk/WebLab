@@ -68,7 +68,46 @@
   }
 
   &__line {
+    max-width: 100%;
+    top: 615px;
     position: absolute;
     z-index: -1;
   }
+
+  &__dots {
+    margin-top: 80px;
+  }
+
+  &__text {
+    margin-right: 10.546875vw;
+    margin-left: 10.546875vw;
+    margin-top: 230px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text-title {
+    width: 45%;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &__text-description {
+    width: 45%;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+  }
+
+
 }

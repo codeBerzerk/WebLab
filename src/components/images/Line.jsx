@@ -1,6 +1,6 @@
 function Line() {
     return (
-        <svg width="1440" height="924" viewBox="0 0 1440 924" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="aboutUS__line" width="1440" height="924" viewBox="0 0 1440 924" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.45">
                 <path d="M2.98755 860C72.0332 718.5 300.349 430.4 661.245 410C1022.14 389.6 1330.79 129.5 1440 2" stroke="url(#paint0_radial_1728_13)" stroke-opacity="0.68" stroke-width="4"/>
                 <path d="M2.98755 872.5C72.0332 731 300.349 442.9 661.245 422.5C1022.14 402.1 1330.79 142 1440 14.5" stroke="url(#paint1_radial_1728_13)" stroke-opacity="0.68" stroke-width="3"/>
