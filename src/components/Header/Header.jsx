@@ -3,9 +3,6 @@ import '../reset.css'
 import './Header.scss'
 import i18n from 'i18next';
 
-
-
-
 export default class Header extends React.Component {
     state = {
         lang: "ua",
@@ -21,11 +18,10 @@ export default class Header extends React.Component {
 
     render() {
         const { t } = this.props;
-        const { lang, headerWidth } = this.state;
-        const { isMinimized } = this.state;
+        const { lang } = this.state;
 
         return (
-            <header className={`header ${isMinimized ? "minimize" : ""}`}>
+            <header className="header">
         <span>
           <div className="header__name">WebLab</div>
           <div className="header__lang-switcher">

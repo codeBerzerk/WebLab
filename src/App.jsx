@@ -2,7 +2,7 @@ import React from "react";
 import {Translation} from "react-i18next";
 import "./components/main.css"
 import Header from "./components/Header/Header";
-import LogoBlock from "./components/MainLogoContainer/LogoBlock";
+import AboutUs from "./components/AboutUs/AboutUs";
 
 export default function App() {
     return (
@@ -11,7 +11,7 @@ export default function App() {
                 {t => <Header t={t}/>}
             </Translation>
             <Translation>
-                {t => <LogoBlock t={t}/>}
+                {t => <AboutUs t={t}/>}
             </Translation>
         </>
     );
