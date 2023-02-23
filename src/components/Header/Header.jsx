@@ -48,7 +48,7 @@ export default class Header extends React.Component {
 
                 <ul className="header__nav-list">
                     <li>
-                        <a href="">{t("header__about_us")}</a>
+                        <a href={"#aboutUs"}>{t("header__about_us")}</a>
                     </li>
                     <li>
                         <a href="">{t("header__services")}</a>

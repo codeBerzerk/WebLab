@@ -1,15 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&family=Montserrat:wght@300;700&family=Mulish:wght@400;500&display=swap');
 
 .header {
-    //transition: 0.3s;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    top: 0;
+    top: 40px;
     position: -webkit-sticky;
     position: sticky;
     display: flex;
     align-items: center;
-    height: 120px;
+    height: 80px;
     justify-content: space-between;
 
     span{
