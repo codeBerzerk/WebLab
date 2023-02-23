@@ -41,6 +41,26 @@
 
   &__step-container {
     margin-top: 68px;
+    width: 55%;
+
+    &__title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-right: 4.557291666666667vw;
+      padding-left: 4.557291666666667vw;
+      height: 138px;
+      font-family: 'Mulish', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 123.02%;
+      letter-spacing: 0.2em;
+      color: #FFFFFF;
+      border: 2px solid #FF9900;
+      box-shadow: 0 8px 26px 5px rgba(255, 199, 0, 0.18);
+      border-radius: 10px;
+    }
   }
 }
 
