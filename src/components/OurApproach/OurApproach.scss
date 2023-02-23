@@ -41,8 +41,11 @@
 
   &__step-container {
     margin-top: 68px;
-    width: 55%;
-
+    span {
+      width: 60%;
+      display: flex;
+      align-items: center;
+    }
     &__title {
       display: flex;
       align-items: center;
@@ -61,6 +64,21 @@
       box-shadow: 0 8px 26px 5px rgba(255, 199, 0, 0.18);
       border-radius: 10px;
     }
+    &__dots {
+      width: 20%;
+    }
+    &__description {
+      margin-top: 34px;
+      width: 80%;
+      font-family: 'Mulish', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+    }
+
   }
 }
 

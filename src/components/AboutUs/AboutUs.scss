@@ -51,8 +51,10 @@
 
   &__button::after {
     content:"";
-    left: -6px;
-    top: -6px;
+    //left: -6px;
+    //top: -6px;
+    left: 0;
+    top: 0;
     position: absolute;
     border: 1px solid #FF9900;
     border-radius: 10px;
@@ -63,8 +65,11 @@
 
   &__button:hover::after {
     transition: 0.3s all;
-    left: 0;
-    top: 0;
+    //left: 0;
+    //top: 0;
+    left: -6px;
+    top: -6px;
+
   }
 
   &__line {
