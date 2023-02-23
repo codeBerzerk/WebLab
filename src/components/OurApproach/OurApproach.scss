@@ -16,7 +16,7 @@
   margin-left: 10.546875vw;
 
   &__title {
-
+    padding-bottom: 74px;
     text-align: right;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -37,6 +37,10 @@
     filter: blur(211px);
     transform: rotate(45deg);
     animation: pulse 2500ms infinite;
+  }
+
+  &__step-container {
+    margin-top: 68px;
   }
 }
 

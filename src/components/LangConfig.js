@@ -15,6 +15,7 @@ i18n.use(initReactI18next).init({
                 aboutUs__text_title: "Ми - команда WebLab",
                 aboutUs__text_description: "Яка не просто створює сайти та налаштовує рекламу, а створює ваш унікальний імідж. Співпрацюючи з нами ви обираєте найсучасніші та найефективніші рішення серед конкурентів вашої галузі.",
 
+                our_approach__title: "Наш підхід",
             }
         },
         cz: {
@@ -27,6 +28,8 @@ i18n.use(initReactI18next).init({
 
                 aboutUs__text_title: "Jsme - tým WebLab",
                 aboutUs__text_description: "Což nejen vytváří stránky a upravuje reklamu, ale také vytváří vaši jedinečnou image. Spoluprací s námi si vybíráte nejmodernější a nejefektivnější řešení mezi konkurenty ve vašem oboru.",
+
+                our_approach__title: "Náš přístup",
 
             }
         },
