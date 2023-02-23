@@ -1,12 +1,12 @@
 @keyframes pulse {
   0% {
-    transform: scale(1);
+    transform: scale(0.9);
   }
   50% {
     transform: scale(1.2);
   }
   100% {
-    transform: scale(1);
+    transform: scale(0.9);
   }
 }
 
@@ -18,7 +18,7 @@
   justify-content: center;
 
 
-  &__animation {
+  &__main-animation {
     position: absolute;
     top: 160px;
     z-index: -1;
@@ -27,7 +27,7 @@
     background: linear-gradient(90deg, rgba(41, 37, 244, 0.8) 0%, rgba(227, 58, 255, 0.8) 26.04%, rgba(84, 4, 255, 0.8) 50.52%, rgba(255, 37, 89, 0.8) 75.52%, rgba(97, 0, 255, 0.8) 100%);
     filter: blur(114.5px);
     transform: rotate(10.21deg);
-    animation: pulse 4s infinite;
+    animation: pulse 2500ms infinite;
   }
 
   &__button {
@@ -108,6 +108,16 @@
     letter-spacing: 0.15em;
     color: #FFFFFF;
   }
-
+  &__ball-animation {
+    position: absolute;
+    top: 1318px;
+    left: -190px;
+    z-index: -1;
+    width: 529px;
+    height: 536px;
+    background: #DF34FB;
+    filter: blur(283px);
+    animation: pulse 2500ms infinite;
+  }
 
 }
