@@ -42,11 +42,12 @@
   &__step-container {
     margin-top: 68px;
     span {
-      width: 60%;
+      width: 100%;
       display: flex;
       align-items: center;
     }
     &__title {
+      width: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
