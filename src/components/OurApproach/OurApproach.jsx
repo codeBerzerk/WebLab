@@ -10,56 +10,58 @@ export default class OurApproach extends React.Component {
 
     render() {
         const {t} = this.props;
-        return (
-            <div className="our-approach">
-                <div className="our-approach__title">{t("our_approach__title")}</div>
-                <div className="our-approach__ball-animation"></div>
+        return (<div className="our-approach">
+            <div className="our-approach__title">{t("our_approach__title")}</div>
+            <div className="our-approach__ball-animation"></div>
                 <div className="our-approach__step-container">
                     <span>
                     <div className="our-approach__step-container__title">
-                        ПРОФЕСІЙНЕ ВИВЧЕННЯ УСІХ ТОНКОСТЕЙ ВАШОГО БІЗНЕСУ.
+                        {t('our_approach__step_container__title1')}
                     </div>
                     <DotsLarge/>
                     </span>
                     <div className="our-approach__step-container__description">
-                        Саме так, ми не просто беремося і робимо що в голову влізе, ми аналізуємо Ваш товар чи послугу, Ваших конкурентів, та Ваших клієнтів, задля того щоб розробити сайт який буде відрізнятися від інших сайтів конкурентів  своєю оригінальністю та практичністю.
+                        {t('our_approach__step_container__description1')}
+                    </div>
+                </div>
+                <div className="our-approach__step-container" style={
+                    {display: 'flex', flexDirection: 'column', alignItems: 'flex-end'
+                    }}>
+                    <span style={{flexDirection: 'row-reverse'}}>
+                    <div className="our-approach__step-container__title">
+                        {t('our_approach__step_container__title2')}
+                    </div>
+                    <DotsLarge/>
+                    </span>
+                    <div className="our-approach__step-container__description" style={{textAlign: 'end'}}>
+                        {t('our_approach__step_container__description2')}
                     </div>
                 </div>
                 <div className="our-approach__step-container">
                     <span>
                     <div className="our-approach__step-container__title">
-                        ПРОФЕСІЙНЕ ВИВЧЕННЯ УСІХ ТОНКОСТЕЙ ВАШОГО БІЗНЕСУ.
+                       {t('our_approach__step_container__title3')}
                     </div>
                     <DotsLarge/>
                     </span>
                     <div className="our-approach__step-container__description">
-                        Саме так, ми не просто беремося і робимо що в голову влізе, ми аналізуємо Ваш товар чи послугу, Ваших конкурентів, та Ваших клієнтів, задля того щоб розробити сайт який буде відрізнятися від інших сайтів конкурентів  своєю оригінальністю та практичністю.
+                        {t('our_approach__step_container__description3')}
                     </div>
                 </div>
-                <div className="our-approach__step-container">
-                    <span>
+            <div className="our-approach__step-container" style={
+                {display: 'flex', flexDirection: 'column', alignItems: 'flex-end'
+                }}>
+                    <span style={{flexDirection: 'row-reverse'}}>
                     <div className="our-approach__step-container__title">
-                        ПРОФЕСІЙНЕ ВИВЧЕННЯ УСІХ ТОНКОСТЕЙ ВАШОГО БІЗНЕСУ.
+                        {t('our_approach__step_container__title4')}
                     </div>
                     <DotsLarge/>
                     </span>
-                    <div className="our-approach__step-container__description">
-                        Саме так, ми не просто беремося і робимо що в голову влізе, ми аналізуємо Ваш товар чи послугу, Ваших конкурентів, та Ваших клієнтів, задля того щоб розробити сайт який буде відрізнятися від інших сайтів конкурентів  своєю оригінальністю та практичністю.
-                    </div>
-                </div>
-                <div className="our-approach__step-container">
-                    <span>
-                    <div className="our-approach__step-container__title">
-                        ПРОФЕСІЙНЕ ВИВЧЕННЯ УСІХ ТОНКОСТЕЙ ВАШОГО БІЗНЕСУ.
-                    </div>
-                    <DotsLarge/>
-                    </span>
-                    <div className="our-approach__step-container__description">
-                        Саме так, ми не просто беремося і робимо що в голову влізе, ми аналізуємо Ваш товар чи послугу, Ваших конкурентів, та Ваших клієнтів, задля того щоб розробити сайт який буде відрізнятися від інших сайтів конкурентів  своєю оригінальністю та практичністю.
-                    </div>
+                <div className="our-approach__step-container__description" style={{textAlign: 'end'}}>
+                    {t('our_approach__step_container__description4')}
                 </div>
             </div>
-        );
+        </div>);
 
     }
 }
