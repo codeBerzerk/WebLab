@@ -1,9 +1,10 @@
 import React from "react";
 import {Translation} from "react-i18next";
-import "./components/main.css"
+import "./styles/main.css"
 import Header from "./components/Header/Header";
 import AboutUs from "./components/AboutUs/AboutUs";
 import OurApproach from "./components/OurApproach/OurApproach";
+import OurTeam from "./components/OurTeam/OurTeam";
 
 export default function App() {
     return (
@@ -16,6 +17,9 @@ export default function App() {
             </Translation>
             <Translation>
                 {t => <OurApproach t={t}/>}
+            </Translation>
+            <Translation>
+                {t => <OurTeam t={t}/>}
             </Translation>
         </>
     );

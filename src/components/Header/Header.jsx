@@ -1,5 +1,5 @@
 import React from 'react';
-import '../reset.css'
+import '../../styles/reset.css'
 import './Header.scss'
 import i18n from 'i18next';
 

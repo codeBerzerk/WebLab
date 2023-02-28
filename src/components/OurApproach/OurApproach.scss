@@ -11,6 +11,10 @@
 }
 
 .our-approach {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
   margin-top: 216px;
   margin-right: 10.546875vw;
   margin-left: 10.546875vw;
@@ -81,6 +85,11 @@
       letter-spacing: 0.03em;
       color: #FFFFFF;
     }
+  }
+  .aboutUS__dots {
+    margin-top: 142px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 

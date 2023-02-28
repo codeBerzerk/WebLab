@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../images/Logo";
 import Line from "../images/Line";
 import Dots from "../images/Dots";
-import '../reset.css'
+import '../../styles/reset.css'
 import "./AboutUs.scss"
 
 export default class AboutUs extends React.Component {

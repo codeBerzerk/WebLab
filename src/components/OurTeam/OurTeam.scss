@@ -1,0 +1,16 @@
+.our-team {
+  margin-top: 132px;
+
+  &__line-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__line {
+    width: 100vw;
+    max-width: 100%;
+    top: 3400px;
+    position: absolute;
+    z-index: -1;
+  }
+}

@@ -1,7 +1,8 @@
 import React from 'react';
-import "../reset.css"
+import "../../styles/reset.css"
 import "./OurApproach.scss"
 import DotsLarge from "../images/DotsLarge";
+import Dots from "../images/Dots";
 
 export default class OurApproach extends React.Component {
     state = {
@@ -61,6 +62,7 @@ export default class OurApproach extends React.Component {
                     {t('our_approach__step_container__description4')}
                 </div>
             </div>
+            <Dots />
         </div>);
 
     }
