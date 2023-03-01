@@ -1,0 +1,38 @@
+.founder-container {
+  margin-top: 100px;
+  width: 22.786458333333332vw;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__img {
+    width: 350px;
+    height: 350px;
+  }
+
+  &__name {
+    margin-top: 47px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+  }
+
+  &__title {
+    margin-top: 6px;
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FF9900;
+  }
+
+}

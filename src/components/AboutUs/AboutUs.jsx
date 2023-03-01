@@ -1,7 +1,7 @@
 import React from "react";
-import Logo from "../images/Logo";
-import Line from "../images/Line";
-import Dots from "../images/Dots";
+import Logo from "../images/Sprites/Logo";
+import Line from "../images/Sprites/Line";
+import Dots from "../images/Sprites/Dots";
 import '../../styles/reset.css'
 import "./AboutUs.scss"
 

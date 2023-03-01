@@ -1,8 +1,8 @@
 import React from 'react';
 import "../../styles/reset.css"
 import "./OurApproach.scss"
-import DotsLarge from "../images/DotsLarge";
-import Dots from "../images/Dots";
+import DotsLarge from "../images/Sprites/DotsLarge";
+import Dots from "../images/Sprites/Dots";
 
 export default class OurApproach extends React.Component {
     state = {
