@@ -1,6 +1,6 @@
 import React from 'react';
 import "../../styles/reset.css"
-import "./OurApproach.scss"
+import "../../styles/_ourApproach.scss"
 import DotsLarge from "../images/Sprites/DotsLarge";
 import Dots from "../images/Sprites/Dots";
 

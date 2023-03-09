@@ -1,15 +1,20 @@
 import React from 'react';
-import "../Founders.scss"
+import "../../../../styles/_founders.scss"
 import BohdanPhoto from "../../../images/Team/Bohdan.png"
+import {t} from "i18next";
 
-function Bohdan() {
-    return(
-        <div className="founder-container">
-            <img className="founder-container__img" src={BohdanPhoto} alt="Bohdan"/>
-            <div className="founder-container__name">Богдан</div>
-            <div className="founder-container__title">Тім лід</div>
-        </div>
-    );
+export default class Bohdan extends React.Component {
+    state = {
+        lang: "ua"
+    };
+
+    render() {
+        return (
+            <div className="founder-container">
+                <img className="founder-container__img" src={BohdanPhoto} alt="Bohdan"/>
+                <div className="founder-container__name">{t('Bohdan_name')}</div>
+                <div className="founder-container__title">{t('Bohdan_position')}</div>
+            </div>
+        );
+    }
 }
-
-export default Bohdan

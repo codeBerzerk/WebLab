@@ -1,0 +1,55 @@
+@keyframes pulse {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
+.services {
+  margin-left: 11.71875vw;
+  margin-right: 11.71875vw;
+
+  &__line-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -5;
+    top: 4900px;
+  }
+
+  &__line {
+    width: 100vw;
+    max-width: 100%;
+  }
+
+  &__title {
+    margin-top: 200px;
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 68px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+  }
+
+  &__pulse {
+    position: absolute;
+    width: 404.78px;
+    height: 483.27px;
+    top: 5861px;
+    left: -177px;
+    background: #BB0087;
+    filter: blur(242.5px);
+    animation: pulse 2500ms infinite;
+  }
+
+}
+
+

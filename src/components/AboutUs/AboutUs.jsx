@@ -3,7 +3,7 @@ import Logo from "../images/Sprites/Logo";
 import Line from "../images/Sprites/Line";
 import Dots from "../images/Sprites/Dots";
 import '../../styles/reset.css'
-import "./AboutUs.scss"
+import "../../styles/_aboutUs.scss"
 
 export default class AboutUs extends React.Component {
     state = {

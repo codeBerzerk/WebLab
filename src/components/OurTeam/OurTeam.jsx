@@ -1,6 +1,6 @@
 import React from 'react';
 import "../../styles/reset.css"
-import "./OurTeam.scss"
+import "../../styles/_ourTeam.scss"
 import Line_2 from "../images/Sprites/Line_2";
 import Bohdan from "./Founders/Bohdan/Bohdan";
 import Yaroslav from "./Founders/Yaroslav/Yaroslav";

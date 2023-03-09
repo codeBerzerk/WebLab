@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../styles/reset.css'
-import './Header.scss'
+import '../../styles/_header.scss'
 import i18n from 'i18next';
 
 export default class Header extends React.Component {
