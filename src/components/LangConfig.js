@@ -28,6 +28,7 @@ i18n.use(initReactI18next).init({
                 our_approach__step_container__title4: "КОМПЛЕКСНІ ПОСЛУГИ ІНТЕРНЕТ-МАРКЕТИНГУ.",
                 our_approach__step_container__description4: "Точне охоплення цільового трафіку та індивідуальна стратегія просування приведе  \"солоденьких\" клієнтів у ваш бізнес.",
 
+                aboutUs: "Про нас",
                 Bohdan_name: "Богдан",
                 Bohdan_position: "Тім лід",
                 Maria_name: "Марія",
@@ -64,12 +65,11 @@ i18n.use(initReactI18next).init({
                 our_approach__step_container__title4: "Komplexní služby internetového marketingu.",
                 our_approach__step_container__description4: "Přesné pokrytí cílového provozu a individuální propagační strategie povede k „sladkým“ zákazníkům do vašeho podnikání.",
 
+                aboutUs: "O nás",
                 Bohdan_name: "Bohdan",
-                Bohdan_position: "Vedení týmu",
-
+                Bohdan_position: "Vedoucí týmu",
                 Maria_name: "Maria",
                 Maria_position: "Návrhář",
-
                 Yaroslav_name: "Yaroslav",
                 Yaroslav_position: "Marketér",
 

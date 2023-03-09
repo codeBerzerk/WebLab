@@ -16,7 +16,7 @@ export default class OurTeam extends React.Component {
         const {t} = this.props;
         return (
             <>
-            <div className="our-team__title">Про нас</div>
+            <div className="our-team__title">{t('aboutUs')}</div>
             <div className="our-team">
 
                 <Line_2/>
