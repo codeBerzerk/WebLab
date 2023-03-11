@@ -10,10 +10,10 @@ function ServicesCard({ title, description, price, remark }) {
     return (
 
             <div className="card">
-                <h2 className="card__title">{t(title)}</h2>
+                <h2 className="card__title">{title}</h2>
                 <p className="card__price">
-                    <p>від {t(price)}$</p>
-                    <p>{t(remark)}</p>
+                    <p>{t("from")} {price}$</p>
+                    <p>{remark}</p>
                 </p>
             </div>
     );

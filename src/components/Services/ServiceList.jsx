@@ -4,50 +4,49 @@ import {useTranslation} from "react-i18next";
 import Line_3 from "../images/Sprites/Line_3";
 import "../../styles/_servicesList.scss"
 
-const data = [
-    {
-        title: 'Сайт-візитка',
-        description: 'Такі сайти дуже популярні та користуються великим попитом, оскільки підходять для успішної комерційної діяльності ',
-        price: '300',
-    },
-    {
-        title: 'Лендинг',
-        description: 'Такі сайти дуже популярні та користуються великим попитом, оскільки підходять для успішної комерційної діяльності ',
-        price: '350',
-    },
-    {
-        title: 'Корпоративний сайт',
-        description: 'Такі сайти дуже популярні та користуються великим попитом, оскільки підходять для успішної комерційної діяльності ',
-        price: '750',
-    },
-    {
-        title: 'Інтернет магазин',
-        description: 'Такі сайти дуже популярні та користуються великим попитом, оскільки підходять для успішної комерційної діяльності ',
-        price: '1000',
-    },
-    {
-        title: 'Розробка логотипу',
-        description: 'Такі сайти дуже популярні та користуються великим попитом, оскільки підходять для успішної комерційної діяльності ',
-        price: '100',
-    },
-    {
-        title: 'Дод. послуги',
-        description: 'Такі сайти дуже популярні та користуються великим попитом, оскільки підходять для успішної комерційної діяльності ',
-        price: '15',
-    },
-    {
-        title: 'Просування сайту',
-        description: 'Такі сайти дуже популярні та користуються великим попитом, оскільки підходять для успішної комерційної діяльності ',
-        price: '300',
-        remark: '(+рекламний бюджет)',
-    },
-];
-
 function ServiceList() {
-    const { t } = useTranslation();
+    const {t} = useTranslation();
+    const data = [
+        {
+            title: `${t('card_site_title')}`,
+            description: `${t('card_site_description')}`,
+            price: `${t('card_site_price')}`,
+        },
+        {
+            title: `${t('landing_title')}`,
+            description: `${t('landing_description')}`,
+            price: `${t('landing_price')}`,
+        },
+        {
+            title: `${t('corporate_title')}`,
+            description: `${t('corporate_description')}`,
+            price: `${t('corporate_price')}`,
+        },
+        {
+            title: `${t('shop_title')}`,
+            description: `${t('shop_description')}`,
+            price: `${t('shop_price')}`,
+        },
+        {
+            title: `${t('logo_title')}`,
+            description: `${t('logo_description')}`,
+            price: `${t('logo_price')}`,
+        },
+        {
+            title: `${t('additional_title')}`,
+            description: `${t('additional_description')}`,
+            price: `${t('additional_price')}`,
+        },
+        {
+            title: `${t('ad_title')}`,
+            description: `${t('ad_description')}`,
+            price: `${t('ad_price')}`,
+            remark: `${t('ad_remark')}`,
+        },
+    ];
     return (
-        <div className="services">
-            <Line_3 />
+        <div className="services" id="services">
+            <Line_3/>
             <div className="services__title">{t("services_title")}</div>
             {data.map((item, index) => (
                 <ServiceCard

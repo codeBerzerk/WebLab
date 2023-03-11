@@ -3,12 +3,8 @@ import "../../../../styles/_founders.scss"
 import BohdanPhoto from "../../../images/Team/Bohdan.png"
 import {t} from "i18next";
 
-export default class Bohdan extends React.Component {
-    state = {
-        lang: "ua"
-    };
+export default function Bohdan() {
 
-    render() {
         return (
             <div className="founder-container">
                 <img className="founder-container__img" src={BohdanPhoto} alt="Bohdan"/>
@@ -16,5 +12,4 @@ export default class Bohdan extends React.Component {
                 <div className="founder-container__title">{t('Bohdan_position')}</div>
             </div>
         );
-    }
 }

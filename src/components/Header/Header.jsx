@@ -1,32 +1,30 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../../styles/reset.css'
 import '../../styles/_header.scss'
 import i18n from 'i18next';
+import {useTranslation} from "react-i18next";
 
-export default class Header extends React.Component {
-    state = {
-        lang: "ua",
-    };
+export default function Header() {
+    const [lang, setLang] = useState("ua");
+    const { t } = useTranslation();
 
-    langChange = lang => {
-        this.setState({ lang }, () => {
-            localStorage.setItem("lang", this.state.lang);
+    const langChange = lang => {
+            localStorage.setItem("lang", lang);
             const savedLang = localStorage.getItem("lang");
             i18n.changeLanguage(savedLang);
-        });
-    };
+        }
 
-    render() {
-        const { t } = this.props;
-        const { lang } = this.state;
-
+        const handlerClick = lang => {
+            setLang(lang);
+            langChange(lang)
+        }
         return (
             <header className="header">
         <span>
           <div className="header__name">WebLab</div>
           <div className="header__lang-switcher">
             <button
-                onClick={() => this.langChange("ua")}
+                onClick={() => handlerClick("ua")}
                 className={`header__lng-button ${
                     lang === "ua" ? "header__lng-checked" : ""
                 }`}
@@ -35,7 +33,7 @@ export default class Header extends React.Component {
               UA
             </button>
             <button
-                onClick={() => this.langChange("cz")}
+                onClick={() => handlerClick("cz")}
                 className={`header__lng-button ${
                     lang === "cz" ? "header__lng-checked" : ""
                 }`}
@@ -51,7 +49,7 @@ export default class Header extends React.Component {
                         <a href={"#aboutUs"}>{t("header__about_us")}</a>
                     </li>
                     <li>
-                        <a href="">{t("header__services")}</a>
+                        <a href={"#services"}>{t("header__services")}</a>
                     </li>
                     <li>
                         <a href="">{t("header__contact")}</a>
@@ -59,6 +57,5 @@ export default class Header extends React.Component {
                 </ul>
             </header>
         );
-    }
 }
 
