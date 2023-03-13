@@ -14,6 +14,7 @@ export default class OurApproach extends React.Component {
         return (<div className="our-approach">
             <div className="our-approach__title">{t("our_approach__title")}</div>
             <div className="our-approach__ball-animation"></div>
+            <div className="our-approach__ball-animation2"></div>
                 <div className="our-approach__step-container">
                     <span>
                     <div className="our-approach__step-container__title">

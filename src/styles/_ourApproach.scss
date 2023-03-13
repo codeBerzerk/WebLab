@@ -20,6 +20,7 @@
   margin-left: 10.546875vw;
 
   &__title {
+    width: 100%;
     padding-bottom: 74px;
     text-align: right;
     font-family: 'Montserrat', sans-serif;
@@ -39,6 +40,18 @@
     height: 470px;
     background: #4900BF;
     filter: blur(211px);
+    transform: rotate(45deg);
+    animation: pulse 2500ms infinite;
+  }
+
+  &__ball-animation2 {
+    position: absolute;
+    width: 600px;
+    height: 707px;
+    left: -403px;
+    top: 2376px;
+    background: #0224D6;
+    filter: blur(343px);
     transform: rotate(45deg);
     animation: pulse 2500ms infinite;
   }
