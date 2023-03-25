@@ -9,7 +9,7 @@ const ContactForm = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        axios.post('http://localhost:5000/contact', { name, email, message })
+        axios.post('https://web-lab-rho.vercel.app/contact', { name, email, message })
             .then(response => setStatus(response.data))
             .catch(error => console.log(error));
     };

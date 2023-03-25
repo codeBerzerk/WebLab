@@ -22,7 +22,7 @@ app.use(cors());
 const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: false });
 
 // обробник запиту POST з форми контактів
-app.post('/contact', (req, res) => {
+app.post('https://web-lab-rho.vercel.app/contact', (req, res) => {
     const { name, email, message } = req.body;
 
     // Відправлення повідомлення в Telegram
