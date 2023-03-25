@@ -6,6 +6,7 @@ import AboutUs from "./components/AboutUs/AboutUs";
 import OurApproach from "./components/OurApproach/OurApproach";
 import OurTeam from "./components/OurTeam/OurTeam";
 import ServiceList from "./components/Services/ServiceList";
+import ContactForm from "./components/ContactForm/ContactForm";
 
 export default function App() {
     return (
@@ -24,6 +25,9 @@ export default function App() {
             </Translation>
             <Translation>
                 {t => <ServiceList t={t}/>}
+            </Translation>
+            <Translation>
+                {t => <ContactForm t={t}/>}
             </Translation>
         </>
     );
