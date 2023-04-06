@@ -9,7 +9,7 @@ const ContactForm = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        axios.post('/contact', { name, email, message })
+        axios.post('http://localhost:8080/contact', { name, email, message }) ///IN 'URL' NEED SERVER URL. EXAMPLE: http://localhost:8080/contact
             .then(response => setStatus(response.data))
             .catch(error => console.log(error));
     };
