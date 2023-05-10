@@ -1,7 +1,9 @@
 import { initReactI18next } from "react-i18next";
 import i18n from "i18next";
 
+
 i18n.use(initReactI18next).init({
+
     lng: "ua",
     resources: {
         ua: {
@@ -49,11 +51,11 @@ i18n.use(initReactI18next).init({
                 corporate_title: "Корпоративний сайт",
                 corporate_description: `Це сайт, який є представником компанії в Інтернеті. Він не інформує, не продає і ` +
                     `навіть не позиціонує вас, як кваліфіковану команду. Корпоративний сайт це все робить одразу та навіть більше.` +
-                    `Зазвичай корпоративний сайт допомагає досягти одразу декілька цілей:` +
-                    `· Розповідає про діяльність компанії про діяльність;` +
-                    `· Формує неповторний імідж компанії ;` +
-                    `· Презентує товари чи послуги;` +
-                    `· Збільшувати обсяги ваших продажів, від яких залежить і ваш прибуток;`,
+                    `Зазвичай корпоративний сайт допомагає досягти одразу декілька цілей:\n` +
+                    `· Розповідає про діяльність компанії про діяльність;\n` +
+                    `· Формує неповторний імідж компанії;\n` +
+                    `· Презентує товари чи послуги;\n` +
+                    `· Збільшувати обсяги ваших продажів, від яких залежить і ваш прибуток;\n`,
                 corporate_price: "750",
                 shop_title: "Інтернет-магазин",
                 shop_description: "Сайт, який торгує за допомогою мережі Інтернет. Дозволяє користувачам онлайн, у своєму браузері, сформувати замовлення на купівлю, вибрати спосіб оплати та доставки замовлення, оплатити замовлення. Наша команда реалізовує всі необхідні функції так, щоб спонукати відвідувачів робити додаткові покупки. Ми робимо роботу з інтернет-магазинами легкою та швидкою.",
@@ -65,10 +67,14 @@ i18n.use(initReactI18next).init({
                 additional_description: "Якісний та надійний хостинг, техпідтримку, наповнення сайту, аналітику.",
                 additional_price: "15",
                 ad_title: "Просування сайту",
-                ad_description: "Інтернет маркетинг - це новий спосіб розповісти потенційним клієнтам про вашу послугу або продукт (хз как написать правильно, так что пока так) ",
+                ad_description: "Інтернет маркетинг - це новий спосіб розповісти потенційним клієнтам про вашу послугу або продукт",
                 ad_price: "300",
                 ad_remark: "(+рекламний бюджет)",
 
+                contact_name: "ПІБ",
+                contact_tel: "Телефон",
+                contact_email: "E-mail",
+                contact_info: "Додаткова інформація",
 
             }
         },
@@ -113,26 +119,35 @@ i18n.use(initReactI18next).init({
                 card_site_description: "Takové stránky mají dvě nebo tři webové stránky, které obsahují základní informace o společnosti. Stránka vizitek je žádaná, protože je vhodná pro úspěšnou komerční činnost",
                 card_site_price: "300",
                 landing_title: "Jednostránkový web",
-                landing_description: "Зазвичай лендінг складається з однієї сторінки, яка містить всю необхідну інформацію для користувача про продукт або послугу.",
+                landing_description: "Vstupní stránka se obvykle skládá z jedné stránky, která obsahuje všechny potřebné informace pro uživatele o produktu nebo službě.",
                 landing_price: "350",
                 corporate_title: "Firemní stránky",
-
-
-
+                corporate_description: `Toto je stránka, která reprezentuje společnost na internetu. Neinformuje, neprodává a ` +
+                    `Ani vás nestaví jako kvalifikovaný tým. Firemní stránka to všechno dělá najednou a ještě víc `+
+                    `Obvykle firemní stránka pomáhá dosáhnout několika cílů najednou:\n` +
+                     `· Vypráví o aktivitách společnosti;\n` +
+                     `· Tvoří jedinečný obraz společnosti;\n` +
+                     `· Prezentuje zboží nebo služby;\n` +
+                     `· Chcete-li zvýšit objem vašich prodejů, na kterých závisí také váš zisk;\n`,
                 corporate_price: "750",
                 shop_title: "Internetový obchod",
-                shop_description: "Сайт, який торгує за допомогою мережі Інтернет. Дозволяє користувачам онлайн, у своєму браузері, сформувати замовлення на купівлю, вибрати спосіб оплати та доставки замовлення, оплатити замовлення. Наша команда реалізовує всі необхідні функції так, щоб спонукати відвідувачів робити додаткові покупки. Ми робимо роботу з інтернет-магазинами легкою та швидкою.",
+                shop_description: "СStránka, která obchoduje pomocí internetu. Umožňuje uživatelům online ve svém prohlížeči vytvořit objednávku, zvolit způsob platby a doručení objednávky, zaplatit za objednávku. Náš tým implementuje všechny potřebné funkce, aby povzbudil návštěvníky k dalším nákupům. Děláme práci s internetovými obchody snadnou a rychlou.",
                 shop_price: "1000",
                 logo_title: "Rozvoj logotypu",
-                logo_description: "Індивідуальний та якісний брендинг для вашої компанії\n",
+                logo_description: "Individuální a kvalitní branding pro vaši společnost\n",
                 logo_price: "100",
                 additional_title: "Doplňkové služby",
-                additional_description: "Якісний та надійний хостинг, техпідтримку, наповнення сайту, аналітику.",
+                additional_description: "Kvalitní a spolehlivý hosting, technická podpora, obsah stránek, analytika.",
                 additional_price: "15",
                 ad_title: "Propagace stránek",
-                ad_description: "Інтернет маркетинг - це новий спосіб розповісти потенційним клієнтам про вашу послугу або продукт (хз как написать правильно, так что пока так) ",
+                ad_description: "Internetový marketing je nový způsob, jak informovat potenciální zákazníky o vaší službě nebo produktu",
                 ad_price: "300",
                 ad_remark: "(+reklamní rozpočet)",
+
+                contact_name: "Křestní jméno a příjmení",
+                contact_tel: "Telefonní číslo",
+                contact_email: "E-mail",
+                contact_info: "Dodatečné informace",
 
             }
         },

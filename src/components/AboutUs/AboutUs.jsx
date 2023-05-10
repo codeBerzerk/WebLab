@@ -10,15 +10,15 @@ export default class AboutUs extends React.Component {
         lang: "ua"
     };
 
-
-
     render() {
         const { t } = this.props;
         return (
             <div className="aboutUS">
                 <div className="aboutUS__main-animation"></div>
-            <Logo/>
-                <button className="aboutUS__button" id="aboutUs"><p className="TEST">{t("order_a_service")}</p></button>
+                <Logo/>
+                <a href={"#contactForm"} className="aboutUS__button" id="aboutUs" role="button" tabIndex={0}>
+                    <p>{t("order_a_service")}</p>
+                </a>
                 <Dots/>
                 <Line/>
                 <div className="aboutUS__text">

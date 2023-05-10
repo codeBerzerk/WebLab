@@ -22,12 +22,12 @@ app.use(cors());
 const bot = new TelegramBot(process.env.TELEGRAM_BOT_TOKEN, { polling: false });
 
 // обробник запиту POST з форми контактів
-app.post('/contact', (req, res) => {
-    const { name, email, message } = req.body;
+app.post('/contact', (req, res) => { /////PATH - "SERVER URL!!!!!"
+    const { name, number, email, message } = req.body;
 
     // Відправлення повідомлення в Telegram
     const chatId = process.env.TELEGRAM_CHAT_ID;
-    const messageText = `Ім'я: ${name}\nEmail: ${email}\nПовідомлення: ${message}`;
+    const messageText = `Ім'я: ${name}\n Телефон: ${number}\n Email: ${email}\nПовідомлення: ${message}`;
     bot.sendMessage(chatId, messageText)
         .then(() => {
             console.log('Message sent');

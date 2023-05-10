@@ -1,0 +1,56 @@
+.footer {
+  width: 100%;
+
+  &__line {
+    margin-top: 154px;
+    width: 100vw;
+    max-width: 100%;
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    &__social-container {
+      width: 250px;
+      display: flex;
+      justify-content: space-between;
+
+      .social-button svg {
+        width: 50px;
+        height: 50px;
+      }
+
+      .social-button:nth-child(2n) {
+      transition: 0.3s;
+      }
+      .social-button:nth-child(3) {
+        transition: 0.3s;
+      }
+
+      .social-button:hover {
+        transition: 0.3s;
+        filter: drop-shadow(0px 13px 24px rgba(255, 153, 0, 0.38));
+      }
+    }
+  &__weblab {
+    color: white;
+    font-family: Mulish, sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.075em;
+    text-align: center;
+  }
+    &__location {
+      color: white;
+      font-family: Mulish, sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 23px;
+      letter-spacing: 0.165em;
+      text-align: left;
+
+    }
+  }
+}

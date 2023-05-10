@@ -7,6 +7,7 @@ import OurApproach from "./components/OurApproach/OurApproach";
 import OurTeam from "./components/OurTeam/OurTeam";
 import ServiceList from "./components/Services/ServiceList";
 import ContactForm from "./components/ContactForm/ContactForm";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
     return (
@@ -28,6 +29,9 @@ export default function App() {
             </Translation>
             <Translation>
                 {t => <ContactForm t={t}/>}
+            </Translation>
+            <Translation>
+                {t => <Footer t={t}/>}
             </Translation>
         </>
     );

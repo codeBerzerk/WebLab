@@ -47,6 +47,11 @@
     border: 1px solid #FF9900;
     box-shadow: 0 9px 27px 1px rgba(255, 153, 0, 0.22);
     border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   &__button::after {
