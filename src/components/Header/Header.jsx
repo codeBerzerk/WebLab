@@ -52,7 +52,7 @@ export default function Header() {
                         <a href={"#services"}>{t("header__services")}</a>
                     </li>
                     <li>
-                        <a href="">{t("header__contact")}</a>
+                        <a href={"#contacts"}>{t("header__contact")}</a>
                     </li>
                 </ul>
             </header>

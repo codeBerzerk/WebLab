@@ -9,7 +9,7 @@ import Telegram from "../images/Sprites/Telegram";
 import Location from "../images/Sprites/Location";
 const Footer = () => {
     return(
-        <div className="footer">
+        <div className="footer" id="contacts">
             <img className="footer__line" src={LineFooter} alt="line"/>
 
             <div className="footer__content">
