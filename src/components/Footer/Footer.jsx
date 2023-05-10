@@ -20,7 +20,7 @@ const Footer = () => {
                 <Gmail/>
             </div>
                 <div className="footer__content__weblab">
-                    Designed by Webleb <br/>
+                    Designed by Weblab <br/>
                     2023 <br/>
                 </div>
                 <div className="footer__content__location">
